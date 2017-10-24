@@ -9,7 +9,7 @@ Route::group(['middleware' => 'web'], function () {
      * 顯示所有任務
      */
     Route::get('/', function () {
-        //
+        return view('tasks');
     });
 
     /**
